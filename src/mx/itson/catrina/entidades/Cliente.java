@@ -7,7 +7,7 @@ package mx.itson.catrina.entidades;
 import java.util.List;
 
 /**
- *
+ * Aqui se tienes todo los metodos de cliente
  * @author Angel Fierros
  */
 public class Cliente {

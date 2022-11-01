@@ -9,7 +9,7 @@ import mx.itson.catrina.enumeradores.Tipo;
 
 
 /**
- *
+ * Aqui se tienes todo los metodos de movimientos
  * @author Angel Fierros
  */
 public class Movimientos {

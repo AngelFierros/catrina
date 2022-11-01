@@ -7,11 +7,25 @@ import com.google.gson.Gson;
 import java.util.List;
 
 /**
- *
+ * Aqui se tienes todo los metodos de cuenta.
  * @author Angel Fierros
  */
 
 public class Cuenta {
+
+    /**
+     * @return the producto
+     */
+    public String getProducto() {
+        return producto;
+    }
+
+    /**
+     * @param producto the producto to set
+     */
+    public void setProducto(String producto) {
+        this.producto = producto;
+    }
     public Cliente getCliente() {
         return cliente;
     }
@@ -19,10 +33,11 @@ public class Cuenta {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
-    
+   
+   private String producto; 
    private Cliente cliente;
-   private int cuenta;
-   private int clabe;
+   private String cuenta;
+   private String clabe;
    private String moneda;
    private List<Movimientos> movimientos;
    public Cuenta deserealizar(String json){
@@ -39,19 +54,19 @@ public class Cuenta {
    }
   
 
-    public int getCuenta() {
+    public String getCuenta() {
         return cuenta;
     }
 
-    public void setCuenta(int cuenta) {
+    public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
-    public int getClabe() {
+    public String getClabe() {
         return clabe;
     }
 
-    public void setClabe(int clabe) {
+    public void setClabe(String clabe) {
         this.clabe = clabe;
     }
 

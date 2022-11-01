@@ -6,12 +6,12 @@ package mx.itson.catrina.enumeradores;
 import com.google.gson.annotations.SerializedName;
 
 /**
- *
+ * Aqui se encunetras los enumeradores a usar.
  * @author Angel Fierros
  */
 public enum Tipo {
     @SerializedName("1")
-    Déposito,
+    Deposito,
     
     @SerializedName("2")
     Retiro
